@@ -1,3 +1,6 @@
 [submodule "opsworks-logstash"]
 	path = opsworks-logstash
 	url = https://github.com/Springest/opsworks-logstash.git
+[submodule "opsworks_custom_env"]
+	path = opsworks_custom_env
+	url = https://github.com/joeyAghion/opsworks_custom_env.git
