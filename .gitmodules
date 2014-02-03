@@ -4,3 +4,6 @@
 [submodule "opsworks_custom_env"]
 	path = opsworks_custom_env
 	url = https://github.com/joeyAghion/opsworks_custom_env.git
+[submodule "rabbitmq"]
+	path = rabbitmq
+	url = https://github.com/opscode-cookbooks/rabbitmq.git
