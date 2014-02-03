@@ -10,3 +10,6 @@
 [submodule "ark"]
 	path = ark
 	url = https://github.com/opscode-cookbooks/ark.git
+[submodule "elasticsearch"]
+	path = elasticsearch
+	url = https://github.com/foxycoder/cookbook-elasticsearch.git
