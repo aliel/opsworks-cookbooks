@@ -19,3 +19,9 @@
 [submodule "hostsfile"]
 	path = hostsfile
 	url = https://github.com/foxycoder/hostsfile.git
+[submodule "erlang"]
+	path = erlang
+	url = https://github.com/opscode-cookbooks/erlang.git
+[submodule "postfix"]
+	path = postfix
+	url = https://github.com/opscode-cookbooks/postfix.git
