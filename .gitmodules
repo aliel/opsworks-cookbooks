@@ -40,3 +40,6 @@
 [submodule "yum-epel"]
 	path = yum-epel
 	url = https://github.com/opscode-cookbooks/yum-epel.git
+[submodule "yum-erlang_solutions"]
+	path = yum-erlang_solutions
+	url = https://github.com/opscode-cookbooks/yum-erlang_solutions.git
