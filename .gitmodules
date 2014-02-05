@@ -34,3 +34,6 @@
 [submodule "cookbook-yumrepo"]
 	path = cookbook-yumrepo
 	url = https://github.com/bryanwb/cookbook-yumrepo.git
+[submodule "yumrepo"]
+	path = yumrepo
+	url = https://github.com/bryanwb/cookbook-yumrepo.git
