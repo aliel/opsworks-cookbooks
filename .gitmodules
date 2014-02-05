@@ -37,3 +37,6 @@
 [submodule "yumrepo"]
 	path = yumrepo
 	url = https://github.com/bryanwb/cookbook-yumrepo.git
+[submodule "yum-epel"]
+	path = yum-epel
+	url = https://github.com/opscode-cookbooks/yum-epel.git
