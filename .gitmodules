@@ -43,3 +43,6 @@
 [submodule "yum-erlang_solutions"]
 	path = yum-erlang_solutions
 	url = https://github.com/opscode-cookbooks/yum-erlang_solutions.git
+[submodule "php_fpm"]
+	path = php_fpm
+	url = https://github.com/opscode-cookbooks/php.git
