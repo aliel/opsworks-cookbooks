@@ -49,3 +49,6 @@
 [submodule "windows"]
 	path = windows
 	url = https://github.com/opscode-cookbooks/windows.git
+[submodule "7-zip"]
+	path = 7-zip
+	url = https://github.com/sneal/7-zip.git
