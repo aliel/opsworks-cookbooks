@@ -1,0 +1,48 @@
+[submodule "opsworks-logstash"]
+	path = opsworks-logstash
+	url = https://github.com/Springest/opsworks-logstash.git
+[submodule "opsworks_custom_env"]
+	path = opsworks_custom_env
+	url = https://github.com/joeyAghion/opsworks_custom_env.git
+[submodule "rabbitmq"]
+	path = rabbitmq
+	url = https://github.com/opscode-cookbooks/rabbitmq.git
+[submodule "ark"]
+	path = ark
+	url = https://github.com/opscode-cookbooks/ark.git
+[submodule "elasticsearch"]
+	path = elasticsearch
+	url = https://github.com/aliel/cookbook-elasticsearch.git
+[submodule "java"]
+	path = java
+	url = https://github.com/opscode-cookbooks/java.git
+[submodule "hostsfile"]
+	path = hostsfile
+	url = https://github.com/foxycoder/hostsfile.git
+[submodule "erlang"]
+	path = erlang
+	url = https://github.com/opscode-cookbooks/erlang.git
+[submodule "apt"]
+	path = apt
+	url = https://github.com/opscode-cookbooks/apt.git
+[submodule "build-essential"]
+	path = build-essential
+	url = https://github.com/opscode-cookbooks/build-essential.git
+[submodule "yum"]
+	path = yum
+	url = https://github.com/opscode-cookbooks/yum.git
+[submodule "cookbook-yumrepo"]
+	path = cookbook-yumrepo
+	url = https://github.com/bryanwb/cookbook-yumrepo.git
+[submodule "yumrepo"]
+	path = yumrepo
+	url = https://github.com/bryanwb/cookbook-yumrepo.git
+[submodule "yum-epel"]
+	path = yum-epel
+	url = https://github.com/opscode-cookbooks/yum-epel.git
+[submodule "yum-erlang_solutions"]
+	path = yum-erlang_solutions
+	url = https://github.com/opscode-cookbooks/yum-erlang_solutions.git
+[submodule "php_fpm"]
+	path = php_fpm
+	url = https://github.com/opscode-cookbooks/php.git
