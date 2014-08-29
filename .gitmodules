@@ -46,3 +46,6 @@
 [submodule "php_fpm"]
 	path = php_fpm
 	url = https://github.com/opscode-cookbooks/php.git
+[submodule "windows"]
+	path = windows
+	url = https://github.com/opscode-cookbooks/windows.git
