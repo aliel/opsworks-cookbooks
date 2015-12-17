@@ -55,3 +55,6 @@
 [submodule "chef_handler"]
 	path = chef_handler
 	url = https://github.com/opscode-cookbooks/chef_handler.git
+[submodule "xml"]
+	path = xml
+	url = https://github.com/chef-cookbooks/xml.git
