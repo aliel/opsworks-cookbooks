@@ -58,3 +58,6 @@
 [submodule "xml"]
 	path = xml
 	url = https://github.com/chef-cookbooks/xml.git
+[submodule "iis"]
+	path = iis
+	url = https://github.com/chef-cookbooks/iis.git
