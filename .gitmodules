@@ -61,3 +61,6 @@
 [submodule "iis"]
 	path = iis
 	url = https://github.com/chef-cookbooks/iis.git
+[submodule "chef-sugar"]
+	path = chef-sugar
+	url = https://github.com/sethvargo/chef-sugar.git
