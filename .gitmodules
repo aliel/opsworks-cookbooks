@@ -44,7 +44,7 @@
 	path = yum-erlang_solutions
 	url = https://github.com/opscode-cookbooks/yum-erlang_solutions.git
 [submodule "php_fpm"]
-	path = php_fpm
+	path = php
 	url = https://github.com/opscode-cookbooks/php.git
 [submodule "windows"]
 	path = windows
