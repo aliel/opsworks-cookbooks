@@ -64,3 +64,6 @@
 [submodule "chef-sugar"]
 	path = chef-sugar
 	url = https://github.com/sethvargo/chef-sugar.git
+[submodule "mysql"]
+	path = mysql
+	url = https://github.com/chef-cookbooks/mysql.git
