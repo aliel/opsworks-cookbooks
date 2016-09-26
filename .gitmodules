@@ -67,3 +67,6 @@
 [submodule "mysql"]
 	path = mysql
 	url = https://github.com/chef-cookbooks/mysql.git
+[submodule "seven_zip"]
+	path = seven_zip
+	url = https://github.com/windowschefcookbooks/seven_zip.git
