@@ -70,3 +70,9 @@
 [submodule "seven_zip"]
 	path = seven_zip
 	url = https://github.com/windowschefcookbooks/seven_zip.git
+[submodule "mingw"]
+	path = mingw
+	url = https://github.com/chef-cookbooks/mingw.git
+[submodule "compat_resource"]
+	path = compat_resource
+	url = https://github.com/chef-cookbooks/compat_resource.git
