@@ -78,4 +78,4 @@
 	url = https://github.com/chef-cookbooks/compat_resource.git
 [submodule "newrelic"]
 	path = newrelic
-	url = https://github.com/djoos-cookbooks/newrelic.git
+	url = https://github.com/aliel/newrelic.git
