@@ -35,27 +35,28 @@ if cc_pub_key != nil && cc_pub_key.length > 0
 	end
 end
 
-configure_db_host = "#{Chef::Config[:file_cache_path]}/configure_db_host.sql"
+# NOT NEEDED => is performed by clustercontrol
+#configure_db_host = "#{Chef::Config[:file_cache_path]}/configure_db_host.sql"
+#
+#execute "configure-db-host" do
+#	command "#{node['mysql']['bin']} -uroot -p#{node['mysql']['root_password']} < #{configure_db_host}"
+#	action :nothing
+#	not_if { FileTest.exists?("#{install_flag}") }
+#end
 
-execute "configure-db-host" do
-	command "#{node['mysql']['bin']} -uroot -p#{node['mysql']['root_password']} < #{configure_db_host}"
-	action :nothing
-	not_if { FileTest.exists?("#{install_flag}") }
-end
+#if "#{node['cluster_type']}" != "mongodb"
+#	template "configure_db_host.sql" do
+#		path "#{configure_db_host}"
+#		source "configure_db_host.sql.erb"
+#		owner "root"
+#		group "root"
+#		mode "0644"
+#		notifies :run, resources(:execute => "configure-db-host"), :immediately
+#	end
+#end
 
-if "#{node['cluster_type']}" != "mongodb"
-	template "configure_db_host.sql" do
-		path "#{configure_db_host}"
-		source "configure_db_host.sql.erb"
-		owner "root"
-		group "root"
-		mode "0644"
-		notifies :run, resources(:execute => "configure-db-host"), :immediately
-	end
-end
-
-execute "db-host-configured" do
-	command "touch #{install_flag}"
-	action :run
-	not_if { FileTest.exists?("#{install_flag}") }
-end
+#execute "db-host-configured" do
+#	command "touch #{install_flag}"
+#	action :run
+#	not_if { FileTest.exists?("#{install_flag}") }
+#end
