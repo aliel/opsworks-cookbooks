@@ -79,3 +79,6 @@
 [submodule "newrelic"]
 	path = newrelic
 	url = https://github.com/aliel/newrelic.git
+[submodule "mariadb"]
+	path = mariadb
+	url = https://github.com/sinfomicien/mariadb.git
