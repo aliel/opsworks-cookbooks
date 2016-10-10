@@ -81,4 +81,4 @@
 	url = https://github.com/aliel/newrelic.git
 [submodule "mariadb"]
 	path = mariadb
-	url = https://github.com/sinfomicien/mariadb.git
+	url = https://github.com/aliel/mariadb.git
