@@ -82,3 +82,6 @@
 [submodule "mariadb"]
 	path = mariadb
 	url = https://github.com/aliel/mariadb.git
+[submodule "homebrew"]
+	path = homebrew
+	url = https://github.com/chef-cookbooks/homebrew.git
