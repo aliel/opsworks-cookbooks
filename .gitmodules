@@ -91,3 +91,6 @@
 [submodule "memcached"]
 	path = memcached
 	url = https://github.com/chef-cookbooks/memcached.git
+[submodule "runit"]
+	path = runit
+	url = https://github.com/chef-cookbooks/runit.git
