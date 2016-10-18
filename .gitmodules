@@ -85,3 +85,6 @@
 [submodule "homebrew"]
 	path = homebrew
 	url = https://github.com/chef-cookbooks/homebrew.git
+[submodule "ssh_known_hosts"]
+	path = ssh_known_hosts
+	url = https://github.com/chef-cookbooks/ssh_known_hosts
