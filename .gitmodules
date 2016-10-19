@@ -94,3 +94,6 @@
 [submodule "runit"]
 	path = runit
 	url = https://github.com/chef-cookbooks/runit.git
+[submodule "packagecloud-cookbook"]
+	path = packagecloud-cookbook
+	url = https://github.com/computology/packagecloud-cookbook.git
